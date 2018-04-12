@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DBD4609119C2572F001D150F /* FatFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DBD4609219C2572F001D150F /* Build configuration list for PBXAggregateTarget "FatFramework" */;
+			buildPhases = (
+				DBD4609719C2573C001D150F /* ShellScript */,
+			);
+			dependencies = (
+				DBD4609619C25738001D150F /* PBXTargetDependency */,
+			);
+			name = FatFramework;
+			productName = FatFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DB0E502D19C2553700621D55 /* SensibleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0E502C19C2553700621D55 /* SensibleTableView.framework */; };
+		DBD4608A19C2561F001D150F /* SCiCloudKeyValueDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD4608319C2561F001D150F /* SCiCloudKeyValueDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD4608B19C2561F001D150F /* SCiCloudKeyValueDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4608419C2561F001D150F /* SCiCloudKeyValueDefinition.m */; };
+		DBD4608C19C2561F001D150F /* SCiCloudKeyValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD4608519C2561F001D150F /* SCiCloudKeyValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD4608D19C2561F001D150F /* SCiCloudKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4608619C2561F001D150F /* SCiCloudKeyValueStore.m */; };
+		DBD4608E19C2561F001D150F /* SCTableViewModel+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD4608719C2561F001D150F /* SCTableViewModel+iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD4608F19C2561F001D150F /* SCTableViewModel+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4608819C2561F001D150F /* SCTableViewModel+iCloud.m */; };
+		DBD4609019C2561F001D150F /* STViCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD4608919C2561F001D150F /* STViCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD4609519C25738001D150F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0E500A19C2544700621D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0E501119C2544700621D55;
+			remoteInfo = STViCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB0E501019C2544700621D55 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB0E501219C2544700621D55 /* libSTViCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTViCloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0E502C19C2553700621D55 /* SensibleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensibleTableView.framework; path = "../SensibleTableView/Build/Products/Release-iphoneos/SensibleTableView.framework"; sourceTree = "<group>"; };
+		DBD4608319C2561F001D150F /* SCiCloudKeyValueDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCiCloudKeyValueDefinition.h; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCiCloudKeyValueDefinition.h"; sourceTree = "<group>"; };
+		DBD4608419C2561F001D150F /* SCiCloudKeyValueDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCiCloudKeyValueDefinition.m; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCiCloudKeyValueDefinition.m"; sourceTree = "<group>"; };
+		DBD4608519C2561F001D150F /* SCiCloudKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCiCloudKeyValueStore.h; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCiCloudKeyValueStore.h"; sourceTree = "<group>"; };
+		DBD4608619C2561F001D150F /* SCiCloudKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCiCloudKeyValueStore.m; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCiCloudKeyValueStore.m"; sourceTree = "<group>"; };
+		DBD4608719C2561F001D150F /* SCTableViewModel+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCTableViewModel+iCloud.h"; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCTableViewModel+iCloud.h"; sourceTree = "<group>"; };
+		DBD4608819C2561F001D150F /* SCTableViewModel+iCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCTableViewModel+iCloud.m"; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/SCTableViewModel+iCloud.m"; sourceTree = "<group>"; };
+		DBD4608919C2561F001D150F /* STViCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STViCloud.h; path = "../../../Dynamic Frameworks/STViCloud/STViCloud/STViCloud.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0E500F19C2544700621D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0E502D19C2553700621D55 /* SensibleTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0E500919C2544700621D55 = {
+			isa = PBXGroup;
+			children = (
+				DB0E501419C2544700621D55 /* STViCloud */,
+				DB0E502B19C2550000621D55 /* Frameworks */,
+				DB0E501319C2544700621D55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0E501319C2544700621D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E501219C2544700621D55 /* libSTViCloud.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0E501419C2544700621D55 /* STViCloud */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4608919C2561F001D150F /* STViCloud.h */,
+				DBD4608319C2561F001D150F /* SCiCloudKeyValueDefinition.h */,
+				DBD4608419C2561F001D150F /* SCiCloudKeyValueDefinition.m */,
+				DBD4608519C2561F001D150F /* SCiCloudKeyValueStore.h */,
+				DBD4608619C2561F001D150F /* SCiCloudKeyValueStore.m */,
+				DB8EEB0F19C255D400E3F9C8 /* STViCloudCategories */,
+			);
+			path = STViCloud;
+			sourceTree = "<group>";
+		};
+		DB0E502B19C2550000621D55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E502C19C2553700621D55 /* SensibleTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8EEB0F19C255D400E3F9C8 /* STViCloudCategories */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4608719C2561F001D150F /* SCTableViewModel+iCloud.h */,
+				DBD4608819C2561F001D150F /* SCTableViewModel+iCloud.m */,
+			);
+			name = STViCloudCategories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB0E502919C254DE00621D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4608C19C2561F001D150F /* SCiCloudKeyValueStore.h in Headers */,
+				DBD4608A19C2561F001D150F /* SCiCloudKeyValueDefinition.h in Headers */,
+				DBD4609019C2561F001D150F /* STViCloud.h in Headers */,
+				DBD4608E19C2561F001D150F /* SCTableViewModel+iCloud.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB0E501119C2544700621D55 /* STViCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0E502319C2544700621D55 /* Build configuration list for PBXNativeTarget "STViCloud" */;
+			buildPhases = (
+				DB0E500E19C2544700621D55 /* Sources */,
+				DB0E502919C254DE00621D55 /* Headers */,
+				DB0E500F19C2544700621D55 /* Frameworks */,
+				DB0E501019C2544700621D55 /* CopyFiles */,
+				DB0E502A19C254E600621D55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STViCloud;
+			productName = STViCloud;
+			productReference = DB0E501219C2544700621D55 /* libSTViCloud.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0E500A19C2544700621D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sensible Cocoa";
+				TargetAttributes = {
+					DB0E501119C2544700621D55 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DBD4609119C2572F001D150F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = DB0E500D19C2544700621D55 /* Build configuration list for PBXProject "STViCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB0E500919C2544700621D55;
+			productRefGroup = DB0E501319C2544700621D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0E501119C2544700621D55 /* STViCloud */,
+				DBD4609119C2572F001D150F /* FatFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB0E502A19C254E600621D55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		DBD4609719C2573C001D150F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0E500E19C2544700621D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4608B19C2561F001D150F /* SCiCloudKeyValueDefinition.m in Sources */,
+				DBD4608D19C2561F001D150F /* SCiCloudKeyValueStore.m in Sources */,
+				DBD4608F19C2561F001D150F /* SCTableViewModel+iCloud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD4609619C25738001D150F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0E501119C2544700621D55 /* STViCloud */;
+			targetProxy = DBD4609519C25738001D150F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB0E502119C2544700621D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0E502219C2544700621D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0E502419C2544700621D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		DB0E502519C2544700621D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		DBD4609319C2572F001D150F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBD4609419C2572F001D150F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0E500D19C2544700621D55 /* Build configuration list for PBXProject "STViCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0E502119C2544700621D55 /* Debug */,
+				DB0E502219C2544700621D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0E502319C2544700621D55 /* Build configuration list for PBXNativeTarget "STViCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0E502419C2544700621D55 /* Debug */,
+				DB0E502519C2544700621D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD4609219C2572F001D150F /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4609319C2572F001D150F /* Debug */,
+				DBD4609419C2572F001D150F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0E500A19C2544700621D55 /* Project object */;
+}

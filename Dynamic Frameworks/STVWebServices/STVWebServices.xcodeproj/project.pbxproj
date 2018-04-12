@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DBF1672C19A9264500806A65 /* FatFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DBF1672D19A9264500806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */;
+			buildPhases = (
+				DBF1673219A9265100806A65 /* ShellScript */,
+			);
+			dependencies = (
+				DBF1673119A9264D00806A65 /* PBXTargetDependency */,
+			);
+			name = FatFramework;
+			productName = FatFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DBD4DD09196A18A100A78949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD4DD08196A18A100A78949 /* Foundation.framework */; };
+		DBF1671719A924F900806A65 /* SCWebServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1671019A924F900806A65 /* SCWebServiceDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1671819A924F900806A65 /* SCWebServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1671119A924F900806A65 /* SCWebServiceDefinition.m */; };
+		DBF1671919A924F900806A65 /* SCWebServiceFetchOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1671219A924F900806A65 /* SCWebServiceFetchOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1671A19A924F900806A65 /* SCWebServiceFetchOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1671319A924F900806A65 /* SCWebServiceFetchOptions.m */; };
+		DBF1671B19A924F900806A65 /* SCWebServiceStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1671419A924F900806A65 /* SCWebServiceStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1671C19A924F900806A65 /* SCWebServiceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1671519A924F900806A65 /* SCWebServiceStore.m */; };
+		DBF1671D19A924F900806A65 /* STVWebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1671619A924F900806A65 /* STVWebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1672419A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1671E19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1672519A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1671F19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.m */; };
+		DBF1672619A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1672019A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1672719A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1672119A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.m */; };
+		DBF1672819A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF1672219A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF1672919A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1672319A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.m */; };
+		DBF1672B19A925F500806A65 /* SensibleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF1672A19A925F500806A65 /* SensibleTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF1673019A9264D00806A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4DCDE196A17B300A78949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD4DCE6196A17B300A78949;
+			remoteInfo = STVWebServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD4DCE7196A17B300A78949 /* STVWebServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STVWebServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD4DD08196A18A100A78949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBF1670E19A924DD00806A65 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = STVWebServices/Info.plist; sourceTree = SOURCE_ROOT; };
+		DBF1671019A924F900806A65 /* SCWebServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWebServiceDefinition.h; path = STVWebServices/SCWebServiceDefinition.h; sourceTree = SOURCE_ROOT; };
+		DBF1671119A924F900806A65 /* SCWebServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWebServiceDefinition.m; path = STVWebServices/SCWebServiceDefinition.m; sourceTree = SOURCE_ROOT; };
+		DBF1671219A924F900806A65 /* SCWebServiceFetchOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWebServiceFetchOptions.h; path = STVWebServices/SCWebServiceFetchOptions.h; sourceTree = SOURCE_ROOT; };
+		DBF1671319A924F900806A65 /* SCWebServiceFetchOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWebServiceFetchOptions.m; path = STVWebServices/SCWebServiceFetchOptions.m; sourceTree = SOURCE_ROOT; };
+		DBF1671419A924F900806A65 /* SCWebServiceStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWebServiceStore.h; path = STVWebServices/SCWebServiceStore.h; sourceTree = SOURCE_ROOT; };
+		DBF1671519A924F900806A65 /* SCWebServiceStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWebServiceStore.m; path = STVWebServices/SCWebServiceStore.m; sourceTree = SOURCE_ROOT; };
+		DBF1671619A924F900806A65 /* STVWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STVWebServices.h; path = STVWebServices/STVWebServices.h; sourceTree = SOURCE_ROOT; };
+		DBF1671E19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCArrayOfObjectsModel+WebServices.h"; path = "STVWebServices/SCArrayOfObjectsModel+WebServices.h"; sourceTree = SOURCE_ROOT; };
+		DBF1671F19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCArrayOfObjectsModel+WebServices.m"; path = "STVWebServices/SCArrayOfObjectsModel+WebServices.m"; sourceTree = SOURCE_ROOT; };
+		DBF1672019A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCArrayOfObjectsSection+WebServices.h"; path = "STVWebServices/SCArrayOfObjectsSection+WebServices.h"; sourceTree = SOURCE_ROOT; };
+		DBF1672119A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCArrayOfObjectsSection+WebServices.m"; path = "STVWebServices/SCArrayOfObjectsSection+WebServices.m"; sourceTree = SOURCE_ROOT; };
+		DBF1672219A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCObjectSelectionAttributes+WebServices.h"; path = "STVWebServices/SCObjectSelectionAttributes+WebServices.h"; sourceTree = SOURCE_ROOT; };
+		DBF1672319A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCObjectSelectionAttributes+WebServices.m"; path = "STVWebServices/SCObjectSelectionAttributes+WebServices.m"; sourceTree = SOURCE_ROOT; };
+		DBF1672A19A925F500806A65 /* SensibleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensibleTableView.framework; path = "../../SensibleTableView/Build/Products/Release-iphoneos/SensibleTableView.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD4DCE3196A17B300A78949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4DD09196A18A100A78949 /* Foundation.framework in Frameworks */,
+				DBF1672B19A925F500806A65 /* SensibleTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD4DCDD196A17B300A78949 = {
+			isa = PBXGroup;
+			children = (
+				DBD4DCE9196A17B300A78949 /* STVWebServices */,
+				DBD4DD03196A17F000A78949 /* Frameworks */,
+				DBD4DCE8196A17B300A78949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD4DCE8196A17B300A78949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4DCE7196A17B300A78949 /* STVWebServices.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD4DCE9196A17B300A78949 /* STVWebServices */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1671619A924F900806A65 /* STVWebServices.h */,
+				DBF1671019A924F900806A65 /* SCWebServiceDefinition.h */,
+				DBF1671119A924F900806A65 /* SCWebServiceDefinition.m */,
+				DBF1671219A924F900806A65 /* SCWebServiceFetchOptions.h */,
+				DBF1671319A924F900806A65 /* SCWebServiceFetchOptions.m */,
+				DBF1671419A924F900806A65 /* SCWebServiceStore.h */,
+				DBF1671519A924F900806A65 /* SCWebServiceStore.m */,
+				DBD4DD1C196A194F00A78949 /* STVWebServices Categories */,
+				DBD4DCEA196A17B300A78949 /* Supporting Files */,
+			);
+			name = STVWebServices;
+			path = "STV+WebServices";
+			sourceTree = "<group>";
+		};
+		DBD4DCEA196A17B300A78949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1670E19A924DD00806A65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD4DD03196A17F000A78949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1672A19A925F500806A65 /* SensibleTableView.framework */,
+				DBD4DD08196A18A100A78949 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			path = "STV+WebServices";
+			sourceTree = "<group>";
+		};
+		DBD4DD1C196A194F00A78949 /* STVWebServices Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1672219A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.h */,
+				DBF1672319A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.m */,
+				DBF1672019A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.h */,
+				DBF1672119A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.m */,
+				DBF1671E19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.h */,
+				DBF1671F19A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.m */,
+			);
+			name = "STVWebServices Categories";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DBD4DCE4196A17B300A78949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF1672619A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.h in Headers */,
+				DBF1671719A924F900806A65 /* SCWebServiceDefinition.h in Headers */,
+				DBF1671919A924F900806A65 /* SCWebServiceFetchOptions.h in Headers */,
+				DBF1672419A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.h in Headers */,
+				DBF1671B19A924F900806A65 /* SCWebServiceStore.h in Headers */,
+				DBF1672819A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.h in Headers */,
+				DBF1671D19A924F900806A65 /* STVWebServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBD4DCE6196A17B300A78949 /* STVWebServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD4DCFD196A17B300A78949 /* Build configuration list for PBXNativeTarget "STVWebServices" */;
+			buildPhases = (
+				DBD4DCE2196A17B300A78949 /* Sources */,
+				DBD4DCE3196A17B300A78949 /* Frameworks */,
+				DBD4DCE4196A17B300A78949 /* Headers */,
+				DBD4DCE5196A17B300A78949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STVWebServices;
+			productName = "STV+WebServices";
+			productReference = DBD4DCE7196A17B300A78949 /* STVWebServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD4DCDE196A17B300A78949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sensible Cocoa";
+				TargetAttributes = {
+					DBD4DCE6196A17B300A78949 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DBF1672C19A9264500806A65 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = DBD4DCE1196A17B300A78949 /* Build configuration list for PBXProject "STVWebServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBD4DCDD196A17B300A78949;
+			productRefGroup = DBD4DCE8196A17B300A78949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD4DCE6196A17B300A78949 /* STVWebServices */,
+				DBF1672C19A9264500806A65 /* FatFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD4DCE5196A17B300A78949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF1673219A9265100806A65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Special thanks to Sam Davies for providing this script! http://www.raywenderlich.com/65964/create-a-framework-for-ios\n# We have modified the script to adapt it to the new iOS 8 dynamic frameworks.\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"${PROJECT_NAME}.framework/${PROJECT_NAME}\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\n\n# Ensure that the framework is present in both platform's build directories\n# cp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n# \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD4DCE2196A17B300A78949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF1672519A9255E00806A65 /* SCArrayOfObjectsModel+WebServices.m in Sources */,
+				DBF1671819A924F900806A65 /* SCWebServiceDefinition.m in Sources */,
+				DBF1671A19A924F900806A65 /* SCWebServiceFetchOptions.m in Sources */,
+				DBF1672919A9255E00806A65 /* SCObjectSelectionAttributes+WebServices.m in Sources */,
+				DBF1672719A9255E00806A65 /* SCArrayOfObjectsSection+WebServices.m in Sources */,
+				DBF1671C19A924F900806A65 /* SCWebServiceStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF1673119A9264D00806A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD4DCE6196A17B300A78949 /* STVWebServices */;
+			targetProxy = DBF1673019A9264D00806A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBD4DCFB196A17B300A78949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBD4DCFC196A17B300A78949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBD4DCFE196A17B300A78949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = STVWebServices/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = STVWebServices;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		DBD4DCFF196A17B300A78949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = STVWebServices/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = STVWebServices;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		DBF1672E19A9264500806A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF1672F19A9264500806A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD4DCE1196A17B300A78949 /* Build configuration list for PBXProject "STVWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4DCFB196A17B300A78949 /* Debug */,
+				DBD4DCFC196A17B300A78949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD4DCFD196A17B300A78949 /* Build configuration list for PBXNativeTarget "STVWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4DCFE196A17B300A78949 /* Debug */,
+				DBD4DCFF196A17B300A78949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF1672D19A9264500806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF1672E19A9264500806A65 /* Debug */,
+				DBF1672F19A9264500806A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD4DCDE196A17B300A78949 /* Project object */;
+}

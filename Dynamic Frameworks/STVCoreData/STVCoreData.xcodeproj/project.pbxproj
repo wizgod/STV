@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DBF166A319A8FCC400806A65 /* FatFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DBF166A419A8FCC400806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */;
+			buildPhases = (
+				DBF166A919A8FCE300806A65 /* ShellScript */,
+			);
+			dependencies = (
+				DBF166A819A8FCDF00806A65 /* PBXTargetDependency */,
+			);
+			name = FatFramework;
+			productName = FatFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DBD4DC101969FE7E00A78949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD4DC0F1969FE7E00A78949 /* Foundation.framework */; };
+		DBD4DC121969FE8600A78949 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD4DC111969FE8600A78949 /* CoreData.framework */; };
+		DBF166AB19A8FD3400806A65 /* SensibleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF166AA19A8FD3400806A65 /* SensibleTableView.framework */; };
+		DBF166BD19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166AE19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166BE19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166AF19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.m */; };
+		DBF166BF19A903A300806A65 /* SCArrayOfObjectsModel+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166B019A903A300806A65 /* SCArrayOfObjectsModel+CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166C019A903A300806A65 /* SCArrayOfObjectsModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166B119A903A300806A65 /* SCArrayOfObjectsModel+CoreData.m */; };
+		DBF166C119A903A300806A65 /* SCArrayOfObjectsSection+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166B219A903A300806A65 /* SCArrayOfObjectsSection+CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166C219A903A300806A65 /* SCArrayOfObjectsSection+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166B319A903A300806A65 /* SCArrayOfObjectsSection+CoreData.m */; };
+		DBF166C319A903A300806A65 /* SCCoreDataFetchOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166B419A903A300806A65 /* SCCoreDataFetchOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166C419A903A300806A65 /* SCCoreDataFetchOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166B519A903A300806A65 /* SCCoreDataFetchOptions.m */; };
+		DBF166C519A903A300806A65 /* SCCoreDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166B619A903A300806A65 /* SCCoreDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166C619A903A300806A65 /* SCCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166B719A903A300806A65 /* SCCoreDataStore.m */; };
+		DBF166C719A903A300806A65 /* SCEntityDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166B819A903A300806A65 /* SCEntityDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166C819A903A300806A65 /* SCEntityDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166B919A903A300806A65 /* SCEntityDefinition.m */; };
+		DBF166C919A903A300806A65 /* SCObjectSelectionAttributes+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166BA19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF166CA19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF166BB19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.m */; };
+		DBF166CB19A903A300806A65 /* STVCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF166BC19A903A300806A65 /* STVCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF166A719A8FCDF00806A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4DBE91969FE1200A78949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD4DBF11969FE1200A78949;
+			remoteInfo = STVCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD4DBF21969FE1200A78949 /* STVCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STVCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD4DC0F1969FE7E00A78949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBD4DC111969FE8600A78949 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DBF166AA19A8FD3400806A65 /* SensibleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensibleTableView.framework; path = "../../SensibleTableView/Build/Products/Release-iphoneos/SensibleTableView.framework"; sourceTree = "<group>"; };
+		DBF166AC19A9038A00806A65 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = STVCoreData/Info.plist; sourceTree = SOURCE_ROOT; };
+		DBF166AE19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCArrayOfObjectsCell+CoreData.h"; path = "STVCoreData/SCArrayOfObjectsCell+CoreData.h"; sourceTree = SOURCE_ROOT; };
+		DBF166AF19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCArrayOfObjectsCell+CoreData.m"; path = "STVCoreData/SCArrayOfObjectsCell+CoreData.m"; sourceTree = SOURCE_ROOT; };
+		DBF166B019A903A300806A65 /* SCArrayOfObjectsModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCArrayOfObjectsModel+CoreData.h"; path = "STVCoreData/SCArrayOfObjectsModel+CoreData.h"; sourceTree = SOURCE_ROOT; };
+		DBF166B119A903A300806A65 /* SCArrayOfObjectsModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCArrayOfObjectsModel+CoreData.m"; path = "STVCoreData/SCArrayOfObjectsModel+CoreData.m"; sourceTree = SOURCE_ROOT; };
+		DBF166B219A903A300806A65 /* SCArrayOfObjectsSection+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCArrayOfObjectsSection+CoreData.h"; path = "STVCoreData/SCArrayOfObjectsSection+CoreData.h"; sourceTree = SOURCE_ROOT; };
+		DBF166B319A903A300806A65 /* SCArrayOfObjectsSection+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCArrayOfObjectsSection+CoreData.m"; path = "STVCoreData/SCArrayOfObjectsSection+CoreData.m"; sourceTree = SOURCE_ROOT; };
+		DBF166B419A903A300806A65 /* SCCoreDataFetchOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCCoreDataFetchOptions.h; path = STVCoreData/SCCoreDataFetchOptions.h; sourceTree = SOURCE_ROOT; };
+		DBF166B519A903A300806A65 /* SCCoreDataFetchOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCCoreDataFetchOptions.m; path = STVCoreData/SCCoreDataFetchOptions.m; sourceTree = SOURCE_ROOT; };
+		DBF166B619A903A300806A65 /* SCCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCCoreDataStore.h; path = STVCoreData/SCCoreDataStore.h; sourceTree = SOURCE_ROOT; };
+		DBF166B719A903A300806A65 /* SCCoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCCoreDataStore.m; path = STVCoreData/SCCoreDataStore.m; sourceTree = SOURCE_ROOT; };
+		DBF166B819A903A300806A65 /* SCEntityDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCEntityDefinition.h; path = STVCoreData/SCEntityDefinition.h; sourceTree = SOURCE_ROOT; };
+		DBF166B919A903A300806A65 /* SCEntityDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCEntityDefinition.m; path = STVCoreData/SCEntityDefinition.m; sourceTree = SOURCE_ROOT; };
+		DBF166BA19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCObjectSelectionAttributes+CoreData.h"; path = "STVCoreData/SCObjectSelectionAttributes+CoreData.h"; sourceTree = SOURCE_ROOT; };
+		DBF166BB19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SCObjectSelectionAttributes+CoreData.m"; path = "STVCoreData/SCObjectSelectionAttributes+CoreData.m"; sourceTree = SOURCE_ROOT; };
+		DBF166BC19A903A300806A65 /* STVCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STVCoreData.h; path = STVCoreData/STVCoreData.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD4DBEE1969FE1200A78949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF166AB19A8FD3400806A65 /* SensibleTableView.framework in Frameworks */,
+				DBD4DC121969FE8600A78949 /* CoreData.framework in Frameworks */,
+				DBD4DC101969FE7E00A78949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD4DBE81969FE1200A78949 = {
+			isa = PBXGroup;
+			children = (
+				DBD4DBF41969FE1200A78949 /* STVCoreData */,
+				DBD4DC0E1969FE4D00A78949 /* Frameworks */,
+				DBD4DBF31969FE1200A78949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD4DBF31969FE1200A78949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4DBF21969FE1200A78949 /* STVCoreData.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD4DBF41969FE1200A78949 /* STVCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DBF166BC19A903A300806A65 /* STVCoreData.h */,
+				DBF166B819A903A300806A65 /* SCEntityDefinition.h */,
+				DBF166B919A903A300806A65 /* SCEntityDefinition.m */,
+				DBF166B419A903A300806A65 /* SCCoreDataFetchOptions.h */,
+				DBF166B519A903A300806A65 /* SCCoreDataFetchOptions.m */,
+				DBF166B619A903A300806A65 /* SCCoreDataStore.h */,
+				DBF166B719A903A300806A65 /* SCCoreDataStore.m */,
+				DBD4DC1F1969FFCB00A78949 /* STVCoreData Categories */,
+				DBD4DBF51969FE1200A78949 /* Supporting Files */,
+			);
+			name = STVCoreData;
+			path = "STV+CoreData";
+			sourceTree = "<group>";
+		};
+		DBD4DBF51969FE1200A78949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF166AC19A9038A00806A65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD4DC0E1969FE4D00A78949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF166AA19A8FD3400806A65 /* SensibleTableView.framework */,
+				DBD4DC111969FE8600A78949 /* CoreData.framework */,
+				DBD4DC0F1969FE7E00A78949 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			path = "STV+CoreData";
+			sourceTree = "<group>";
+		};
+		DBD4DC1F1969FFCB00A78949 /* STVCoreData Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DBF166BA19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.h */,
+				DBF166BB19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.m */,
+				DBF166AE19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.h */,
+				DBF166AF19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.m */,
+				DBF166B219A903A300806A65 /* SCArrayOfObjectsSection+CoreData.h */,
+				DBF166B319A903A300806A65 /* SCArrayOfObjectsSection+CoreData.m */,
+				DBF166B019A903A300806A65 /* SCArrayOfObjectsModel+CoreData.h */,
+				DBF166B119A903A300806A65 /* SCArrayOfObjectsModel+CoreData.m */,
+			);
+			name = "STVCoreData Categories";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DBD4DBEF1969FE1200A78949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF166C319A903A300806A65 /* SCCoreDataFetchOptions.h in Headers */,
+				DBF166CB19A903A300806A65 /* STVCoreData.h in Headers */,
+				DBF166C919A903A300806A65 /* SCObjectSelectionAttributes+CoreData.h in Headers */,
+				DBF166BF19A903A300806A65 /* SCArrayOfObjectsModel+CoreData.h in Headers */,
+				DBF166C519A903A300806A65 /* SCCoreDataStore.h in Headers */,
+				DBF166C119A903A300806A65 /* SCArrayOfObjectsSection+CoreData.h in Headers */,
+				DBF166C719A903A300806A65 /* SCEntityDefinition.h in Headers */,
+				DBF166BD19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBD4DBF11969FE1200A78949 /* STVCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD4DC081969FE1200A78949 /* Build configuration list for PBXNativeTarget "STVCoreData" */;
+			buildPhases = (
+				DBD4DBED1969FE1200A78949 /* Sources */,
+				DBD4DBEE1969FE1200A78949 /* Frameworks */,
+				DBD4DBEF1969FE1200A78949 /* Headers */,
+				DBD4DBF01969FE1200A78949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STVCoreData;
+			productName = "STV+CoreData";
+			productReference = DBD4DBF21969FE1200A78949 /* STVCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD4DBE91969FE1200A78949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sensible Cocoa";
+				TargetAttributes = {
+					DBD4DBF11969FE1200A78949 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DBF166A319A8FCC400806A65 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = DBD4DBEC1969FE1200A78949 /* Build configuration list for PBXProject "STVCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBD4DBE81969FE1200A78949;
+			productRefGroup = DBD4DBF31969FE1200A78949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD4DBF11969FE1200A78949 /* STVCoreData */,
+				DBF166A319A8FCC400806A65 /* FatFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD4DBF01969FE1200A78949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF166A919A8FCE300806A65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Special thanks to Sam Davies for providing this script! http://www.raywenderlich.com/65964/create-a-framework-for-ios\n# We have modified the script to adapt it to the new iOS 8 dynamic labraries.\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"${PROJECT_NAME}.framework/${PROJECT_NAME}\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\n\n# Ensure that the framework is present in both platform's build directories\n# cp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n# \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD4DBED1969FE1200A78949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF166C819A903A300806A65 /* SCEntityDefinition.m in Sources */,
+				DBF166C419A903A300806A65 /* SCCoreDataFetchOptions.m in Sources */,
+				DBF166CA19A903A300806A65 /* SCObjectSelectionAttributes+CoreData.m in Sources */,
+				DBF166C219A903A300806A65 /* SCArrayOfObjectsSection+CoreData.m in Sources */,
+				DBF166BE19A903A300806A65 /* SCArrayOfObjectsCell+CoreData.m in Sources */,
+				DBF166C019A903A300806A65 /* SCArrayOfObjectsModel+CoreData.m in Sources */,
+				DBF166C619A903A300806A65 /* SCCoreDataStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF166A819A8FCDF00806A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD4DBF11969FE1200A78949 /* STVCoreData */;
+			targetProxy = DBF166A719A8FCDF00806A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBD4DC061969FE1200A78949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBD4DC071969FE1200A78949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBD4DC091969FE1200A78949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = STVCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		DBD4DC0A1969FE1200A78949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/../SensibleTableView/Build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = STVCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		DBF166A519A8FCC400806A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF166A619A8FCC400806A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD4DBEC1969FE1200A78949 /* Build configuration list for PBXProject "STVCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4DC061969FE1200A78949 /* Debug */,
+				DBD4DC071969FE1200A78949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD4DC081969FE1200A78949 /* Build configuration list for PBXNativeTarget "STVCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4DC091969FE1200A78949 /* Debug */,
+				DBD4DC0A1969FE1200A78949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF166A419A8FCC400806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF166A519A8FCC400806A65 /* Debug */,
+				DBF166A619A8FCC400806A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD4DBE91969FE1200A78949 /* Project object */;
+}

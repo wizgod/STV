@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : 0,
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : 0,
+    "2782489666A0C780BCA87B8C53915A711A6BDD7C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06497CEB-E754-4AC2-96DC-BD44CDF7B976",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : "STV4.0\/Dynamic%20Frameworks\/STVParse\/STVParse\/Parse-SDK-iOS-OSX\/Vendor\/OCMock\/",
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : "STV4.0\/Dynamic%20Frameworks\/STVParse\/STVParse\/Parse-SDK-iOS-OSX\/Vendor\/Bolts-ObjC\/",
+    "2782489666A0C780BCA87B8C53915A711A6BDD7C" : "STV4.0\/Dynamic%20Frameworks\/STVParse\/STVParse\/Parse-SDK-iOS-OSX\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "STVParse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dynamic Frameworks\/STVParse\/STVParse.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ParsePlatform\/Parse-SDK-iOS-OSX.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2782489666A0C780BCA87B8C53915A711A6BDD7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BoltsFramework\/Bolts-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61C4B9E3B61282127C102C87B46B8CDE985974AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/erikdoe\/ocmock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025"
+    }
+  ]
+}

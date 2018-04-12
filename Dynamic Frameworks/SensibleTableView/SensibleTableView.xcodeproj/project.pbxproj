@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DBF1669C19A8F2FD00806A65 /* FatFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DBF1669D19A8F2FD00806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */;
+			buildPhases = (
+				DBF166A219A8F39500806A65 /* ShellScript */,
+			);
+			dependencies = (
+				DBF166A119A8F32B00806A65 /* PBXTargetDependency */,
+			);
+			name = FatFramework;
+			productName = FatFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DB2ACC721969E4BE007068AE /* SensibleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC711969E4BE007068AE /* SensibleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCD41969E976007068AE /* SCArrayStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC8F1969E976007068AE /* SCArrayStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCD51969E976007068AE /* SCArrayStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC901969E976007068AE /* SCArrayStore.m */; };
+		DB2ACCD61969E976007068AE /* SCBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC911969E976007068AE /* SCBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCD71969E976007068AE /* SCBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC921969E976007068AE /* SCBadgeView.m */; };
+		DB2ACCD81969E976007068AE /* SCCellActions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC931969E976007068AE /* SCCellActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCD91969E976007068AE /* SCCellActions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC941969E976007068AE /* SCCellActions.m */; };
+		DB2ACCDA1969E976007068AE /* SCClassDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC951969E976007068AE /* SCClassDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCDB1969E976007068AE /* SCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC961969E976007068AE /* SCClassDefinition.m */; };
+		DB2ACCDC1969E976007068AE /* SCDataDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC971969E976007068AE /* SCDataDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCDD1969E976007068AE /* SCDataDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC981969E976007068AE /* SCDataDefinition.m */; };
+		DB2ACCDE1969E976007068AE /* SCDataFetchOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC991969E976007068AE /* SCDataFetchOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCDF1969E976007068AE /* SCDataFetchOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC9A1969E976007068AE /* SCDataFetchOptions.m */; };
+		DB2ACCE01969E976007068AE /* SCDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC9B1969E976007068AE /* SCDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCE11969E976007068AE /* SCDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC9C1969E976007068AE /* SCDataStore.m */; };
+		DB2ACCE21969E976007068AE /* SCDateDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC9D1969E976007068AE /* SCDateDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCE31969E976007068AE /* SCDateDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACC9E1969E976007068AE /* SCDateDefinition.m */; };
+		DB2ACCE41969E976007068AE /* SCDetailViewControllerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACC9F1969E976007068AE /* SCDetailViewControllerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCE51969E976007068AE /* SCDetailViewControllerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCA01969E976007068AE /* SCDetailViewControllerOptions.m */; };
+		DB2ACCE61969E976007068AE /* SCDictionaryDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCA11969E976007068AE /* SCDictionaryDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCE71969E976007068AE /* SCDictionaryDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCA21969E976007068AE /* SCDictionaryDefinition.m */; };
+		DB2ACCE81969E976007068AE /* SCExpandCollapseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCA31969E976007068AE /* SCExpandCollapseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCE91969E976007068AE /* SCExpandCollapseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCA41969E976007068AE /* SCExpandCollapseCell.m */; };
+		DB2ACCEA1969E976007068AE /* SCFetchItemsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCA51969E976007068AE /* SCFetchItemsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCEB1969E976007068AE /* SCFetchItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCA61969E976007068AE /* SCFetchItemsCell.m */; };
+		DB2ACCEC1969E976007068AE /* SCGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCA71969E976007068AE /* SCGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCED1969E976007068AE /* SCGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCA81969E976007068AE /* SCGlobals.m */; };
+		DB2ACCEE1969E976007068AE /* SCInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCA91969E976007068AE /* SCInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCEF1969E976007068AE /* SCInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCAA1969E976007068AE /* SCInputAccessoryView.m */; };
+		DB2ACCF01969E976007068AE /* SCModelActions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCAB1969E976007068AE /* SCModelActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCF11969E976007068AE /* SCModelActions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCAC1969E976007068AE /* SCModelActions.m */; };
+		DB2ACCF21969E976007068AE /* SCNumberDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCAD1969E976007068AE /* SCNumberDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCF31969E976007068AE /* SCNumberDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCAE1969E976007068AE /* SCNumberDefinition.m */; };
+		DB2ACCF41969E976007068AE /* SCPluginUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCAF1969E976007068AE /* SCPluginUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCF51969E976007068AE /* SCPluginUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCB01969E976007068AE /* SCPluginUtilities.m */; };
+		DB2ACCF61969E976007068AE /* SCPropertyAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCB11969E976007068AE /* SCPropertyAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCF71969E976007068AE /* SCPropertyAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCB21969E976007068AE /* SCPropertyAttributes.m */; };
+		DB2ACCF81969E976007068AE /* SCPropertyDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCB31969E976007068AE /* SCPropertyDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCF91969E976007068AE /* SCPropertyDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCB41969E976007068AE /* SCPropertyDefinition.m */; };
+		DB2ACCFA1969E976007068AE /* SCPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCB51969E976007068AE /* SCPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCFB1969E976007068AE /* SCPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCB61969E976007068AE /* SCPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCFC1969E976007068AE /* SCPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCB71969E976007068AE /* SCPullToRefreshView.m */; };
+		DB2ACCFD1969E976007068AE /* SCSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCB81969E976007068AE /* SCSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACCFE1969E976007068AE /* SCSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCB91969E976007068AE /* SCSearchViewController.m */; };
+		DB2ACCFF1969E976007068AE /* SCSectionActions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCBA1969E976007068AE /* SCSectionActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD001969E976007068AE /* SCSectionActions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCBB1969E976007068AE /* SCSectionActions.m */; };
+		DB2ACD011969E976007068AE /* SCStringDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCBC1969E976007068AE /* SCStringDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD021969E976007068AE /* SCStringDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCBD1969E976007068AE /* SCStringDefinition.m */; };
+		DB2ACD031969E976007068AE /* SCTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCBE1969E976007068AE /* SCTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD041969E976007068AE /* SCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCBF1969E976007068AE /* SCTableViewCell.m */; };
+		DB2ACD051969E976007068AE /* SCTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCC01969E976007068AE /* SCTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD061969E976007068AE /* SCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCC11969E976007068AE /* SCTableViewController.m */; };
+		DB2ACD071969E976007068AE /* SCTableViewControllerActions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCC21969E976007068AE /* SCTableViewControllerActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD081969E976007068AE /* SCTableViewControllerActions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCC31969E976007068AE /* SCTableViewControllerActions.m */; };
+		DB2ACD091969E976007068AE /* SCTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCC41969E976007068AE /* SCTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD0A1969E976007068AE /* SCTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCC51969E976007068AE /* SCTableViewModel.m */; };
+		DB2ACD0B1969E976007068AE /* SCTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCC61969E976007068AE /* SCTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD0C1969E976007068AE /* SCTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCC71969E976007068AE /* SCTableViewSection.m */; };
+		DB2ACD0D1969E976007068AE /* SCTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCC81969E976007068AE /* SCTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD0E1969E976007068AE /* SCTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCC91969E976007068AE /* SCTheme.m */; };
+		DB2ACD0F1969E976007068AE /* SCUserDefaultsDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCCA1969E976007068AE /* SCUserDefaultsDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD101969E976007068AE /* SCUserDefaultsDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCCB1969E976007068AE /* SCUserDefaultsDefinition.m */; };
+		DB2ACD111969E976007068AE /* SCUserDefaultsStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCCC1969E976007068AE /* SCUserDefaultsStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD121969E976007068AE /* SCUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCCD1969E976007068AE /* SCUserDefaultsStore.m */; };
+		DB2ACD131969E976007068AE /* SCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCCE1969E976007068AE /* SCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD141969E976007068AE /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCCF1969E976007068AE /* SCViewController.m */; };
+		DB2ACD151969E976007068AE /* SCViewControllerActions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCD01969E976007068AE /* SCViewControllerActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD161969E976007068AE /* SCViewControllerActions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2ACCD11969E976007068AE /* SCViewControllerActions.m */; };
+		DB2ACD171969E976007068AE /* SCViewControllerTypedefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ACCD21969E976007068AE /* SCViewControllerTypedefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2ACD241969ED60007068AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2ACD231969ED60007068AE /* UIKit.framework */; };
+		DB2ACD281969EDEB007068AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2ACD271969EDEB007068AE /* Foundation.framework */; };
+		DB90E0581A0A9B6000CA3627 /* SCImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90E0561A0A9B6000CA3627 /* SCImageView.h */; };
+		DB90E0591A0A9B6000CA3627 /* SCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90E0571A0A9B6000CA3627 /* SCImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF166A019A8F32B00806A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2ACC631969E4BE007068AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2ACC6B1969E4BE007068AE;
+			remoteInfo = SensibleTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2ACC6C1969E4BE007068AE /* SensibleTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensibleTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2ACC701969E4BE007068AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2ACC711969E4BE007068AE /* SensibleTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensibleTableView.h; sourceTree = "<group>"; };
+		DB2ACC8E1969E976007068AE /* LICENSE AGREEMENT.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "LICENSE AGREEMENT.rtf"; path = "STV-Core/LICENSE AGREEMENT.rtf"; sourceTree = "<group>"; };
+		DB2ACC8F1969E976007068AE /* SCArrayStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCArrayStore.h; sourceTree = "<group>"; };
+		DB2ACC901969E976007068AE /* SCArrayStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCArrayStore.m; sourceTree = "<group>"; };
+		DB2ACC911969E976007068AE /* SCBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBadgeView.h; sourceTree = "<group>"; };
+		DB2ACC921969E976007068AE /* SCBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBadgeView.m; sourceTree = "<group>"; };
+		DB2ACC931969E976007068AE /* SCCellActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCellActions.h; sourceTree = "<group>"; };
+		DB2ACC941969E976007068AE /* SCCellActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCellActions.m; sourceTree = "<group>"; };
+		DB2ACC951969E976007068AE /* SCClassDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCClassDefinition.h; sourceTree = "<group>"; };
+		DB2ACC961969E976007068AE /* SCClassDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCClassDefinition.m; sourceTree = "<group>"; };
+		DB2ACC971969E976007068AE /* SCDataDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDataDefinition.h; sourceTree = "<group>"; };
+		DB2ACC981969E976007068AE /* SCDataDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDataDefinition.m; sourceTree = "<group>"; };
+		DB2ACC991969E976007068AE /* SCDataFetchOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDataFetchOptions.h; sourceTree = "<group>"; };
+		DB2ACC9A1969E976007068AE /* SCDataFetchOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDataFetchOptions.m; sourceTree = "<group>"; };
+		DB2ACC9B1969E976007068AE /* SCDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDataStore.h; sourceTree = "<group>"; };
+		DB2ACC9C1969E976007068AE /* SCDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDataStore.m; sourceTree = "<group>"; };
+		DB2ACC9D1969E976007068AE /* SCDateDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDateDefinition.h; sourceTree = "<group>"; };
+		DB2ACC9E1969E976007068AE /* SCDateDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDateDefinition.m; sourceTree = "<group>"; };
+		DB2ACC9F1969E976007068AE /* SCDetailViewControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDetailViewControllerOptions.h; sourceTree = "<group>"; };
+		DB2ACCA01969E976007068AE /* SCDetailViewControllerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDetailViewControllerOptions.m; sourceTree = "<group>"; };
+		DB2ACCA11969E976007068AE /* SCDictionaryDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDictionaryDefinition.h; sourceTree = "<group>"; };
+		DB2ACCA21969E976007068AE /* SCDictionaryDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDictionaryDefinition.m; sourceTree = "<group>"; };
+		DB2ACCA31969E976007068AE /* SCExpandCollapseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCExpandCollapseCell.h; sourceTree = "<group>"; };
+		DB2ACCA41969E976007068AE /* SCExpandCollapseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCExpandCollapseCell.m; sourceTree = "<group>"; };
+		DB2ACCA51969E976007068AE /* SCFetchItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFetchItemsCell.h; sourceTree = "<group>"; };
+		DB2ACCA61969E976007068AE /* SCFetchItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFetchItemsCell.m; sourceTree = "<group>"; };
+		DB2ACCA71969E976007068AE /* SCGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCGlobals.h; path = "STV-Core/SCGlobals.h"; sourceTree = "<group>"; };
+		DB2ACCA81969E976007068AE /* SCGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCGlobals.m; path = "STV-Core/SCGlobals.m"; sourceTree = "<group>"; };
+		DB2ACCA91969E976007068AE /* SCInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCInputAccessoryView.h; sourceTree = "<group>"; };
+		DB2ACCAA1969E976007068AE /* SCInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCInputAccessoryView.m; sourceTree = "<group>"; };
+		DB2ACCAB1969E976007068AE /* SCModelActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCModelActions.h; sourceTree = "<group>"; };
+		DB2ACCAC1969E976007068AE /* SCModelActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCModelActions.m; sourceTree = "<group>"; };
+		DB2ACCAD1969E976007068AE /* SCNumberDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNumberDefinition.h; sourceTree = "<group>"; };
+		DB2ACCAE1969E976007068AE /* SCNumberDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNumberDefinition.m; sourceTree = "<group>"; };
+		DB2ACCAF1969E976007068AE /* SCPluginUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPluginUtilities.h; path = "STV-Core/SCPluginUtilities.h"; sourceTree = "<group>"; };
+		DB2ACCB01969E976007068AE /* SCPluginUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPluginUtilities.m; path = "STV-Core/SCPluginUtilities.m"; sourceTree = "<group>"; };
+		DB2ACCB11969E976007068AE /* SCPropertyAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPropertyAttributes.h; sourceTree = "<group>"; };
+		DB2ACCB21969E976007068AE /* SCPropertyAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPropertyAttributes.m; sourceTree = "<group>"; };
+		DB2ACCB31969E976007068AE /* SCPropertyDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPropertyDefinition.h; sourceTree = "<group>"; };
+		DB2ACCB41969E976007068AE /* SCPropertyDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPropertyDefinition.m; sourceTree = "<group>"; };
+		DB2ACCB51969E976007068AE /* SCPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPropertyType.h; sourceTree = "<group>"; };
+		DB2ACCB61969E976007068AE /* SCPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPullToRefreshView.h; sourceTree = "<group>"; };
+		DB2ACCB71969E976007068AE /* SCPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPullToRefreshView.m; sourceTree = "<group>"; };
+		DB2ACCB81969E976007068AE /* SCSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSearchViewController.h; sourceTree = "<group>"; };
+		DB2ACCB91969E976007068AE /* SCSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSearchViewController.m; sourceTree = "<group>"; };
+		DB2ACCBA1969E976007068AE /* SCSectionActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSectionActions.h; sourceTree = "<group>"; };
+		DB2ACCBB1969E976007068AE /* SCSectionActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSectionActions.m; sourceTree = "<group>"; };
+		DB2ACCBC1969E976007068AE /* SCStringDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStringDefinition.h; sourceTree = "<group>"; };
+		DB2ACCBD1969E976007068AE /* SCStringDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStringDefinition.m; sourceTree = "<group>"; };
+		DB2ACCBE1969E976007068AE /* SCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewCell.h; sourceTree = "<group>"; };
+		DB2ACCBF1969E976007068AE /* SCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewCell.m; sourceTree = "<group>"; };
+		DB2ACCC01969E976007068AE /* SCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewController.h; sourceTree = "<group>"; };
+		DB2ACCC11969E976007068AE /* SCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewController.m; sourceTree = "<group>"; };
+		DB2ACCC21969E976007068AE /* SCTableViewControllerActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewControllerActions.h; sourceTree = "<group>"; };
+		DB2ACCC31969E976007068AE /* SCTableViewControllerActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewControllerActions.m; sourceTree = "<group>"; };
+		DB2ACCC41969E976007068AE /* SCTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewModel.h; sourceTree = "<group>"; };
+		DB2ACCC51969E976007068AE /* SCTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewModel.m; sourceTree = "<group>"; };
+		DB2ACCC61969E976007068AE /* SCTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewSection.h; sourceTree = "<group>"; };
+		DB2ACCC71969E976007068AE /* SCTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewSection.m; sourceTree = "<group>"; };
+		DB2ACCC81969E976007068AE /* SCTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTheme.h; sourceTree = "<group>"; };
+		DB2ACCC91969E976007068AE /* SCTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTheme.m; sourceTree = "<group>"; };
+		DB2ACCCA1969E976007068AE /* SCUserDefaultsDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUserDefaultsDefinition.h; sourceTree = "<group>"; };
+		DB2ACCCB1969E976007068AE /* SCUserDefaultsDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUserDefaultsDefinition.m; sourceTree = "<group>"; };
+		DB2ACCCC1969E976007068AE /* SCUserDefaultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUserDefaultsStore.h; sourceTree = "<group>"; };
+		DB2ACCCD1969E976007068AE /* SCUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUserDefaultsStore.m; sourceTree = "<group>"; };
+		DB2ACCCE1969E976007068AE /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		DB2ACCCF1969E976007068AE /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		DB2ACCD01969E976007068AE /* SCViewControllerActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewControllerActions.h; sourceTree = "<group>"; };
+		DB2ACCD11969E976007068AE /* SCViewControllerActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewControllerActions.m; sourceTree = "<group>"; };
+		DB2ACCD21969E976007068AE /* SCViewControllerTypedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewControllerTypedefs.h; sourceTree = "<group>"; };
+		DB2ACD231969ED60007068AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB2ACD271969EDEB007068AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB5CCE861984459200473F7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB90E0561A0A9B6000CA3627 /* SCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageView.h; sourceTree = "<group>"; };
+		DB90E0571A0A9B6000CA3627 /* SCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2ACC681969E4BE007068AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2ACD281969EDEB007068AE /* Foundation.framework in Frameworks */,
+				DB2ACD241969ED60007068AE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2ACC621969E4BE007068AE = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC6E1969E4BE007068AE /* SensibleTableView */,
+				DBD4DBE71969FADE00A78949 /* Frameworks */,
+				DB2ACC6D1969E4BE007068AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2ACC6D1969E4BE007068AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC6C1969E4BE007068AE /* SensibleTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2ACC6E1969E4BE007068AE /* SensibleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACD291969EE13007068AE /* License */,
+				DB2ACC711969E4BE007068AE /* SensibleTableView.h */,
+				DB2ACCA71969E976007068AE /* SCGlobals.h */,
+				DB2ACCA81969E976007068AE /* SCGlobals.m */,
+				DB2ACCAF1969E976007068AE /* SCPluginUtilities.h */,
+				DB2ACCB01969E976007068AE /* SCPluginUtilities.m */,
+				DB2ACC8D1969E976007068AE /* STV-Core */,
+				DB2ACC6F1969E4BE007068AE /* Supporting Files */,
+			);
+			path = SensibleTableView;
+			sourceTree = "<group>";
+		};
+		DB2ACC6F1969E4BE007068AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC701969E4BE007068AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB2ACC8D1969E976007068AE /* STV-Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACD181969E9AB007068AE /* Data Definitions */,
+				DB2ACD191969EA88007068AE /* Data Fetch Options */,
+				DB2ACD1A1969EA9E007068AE /* Data Stores */,
+				DB2ACD1B1969EAEA007068AE /* Actions */,
+				DB2ACD1C1969EAF1007068AE /* View Controllers */,
+				DB2ACD1D1969EAFE007068AE /* Models */,
+				DB2ACD1E1969EB0B007068AE /* Sections */,
+				DB2ACD1F1969EB13007068AE /* Cells */,
+				DB2ACD201969EB1B007068AE /* Special Cells */,
+				DB2ACD211969EB31007068AE /* Special Views */,
+				DB2ACD221969EB41007068AE /* Theme */,
+			);
+			path = "STV-Core";
+			sourceTree = "<group>";
+		};
+		DB2ACD181969E9AB007068AE /* Data Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCB11969E976007068AE /* SCPropertyAttributes.h */,
+				DB2ACCB21969E976007068AE /* SCPropertyAttributes.m */,
+				DB2ACCB51969E976007068AE /* SCPropertyType.h */,
+				DB2ACCB31969E976007068AE /* SCPropertyDefinition.h */,
+				DB2ACCB41969E976007068AE /* SCPropertyDefinition.m */,
+				DB2ACC971969E976007068AE /* SCDataDefinition.h */,
+				DB2ACC981969E976007068AE /* SCDataDefinition.m */,
+				DB2ACC951969E976007068AE /* SCClassDefinition.h */,
+				DB2ACC961969E976007068AE /* SCClassDefinition.m */,
+				DB2ACCBC1969E976007068AE /* SCStringDefinition.h */,
+				DB2ACCBD1969E976007068AE /* SCStringDefinition.m */,
+				DB2ACCAD1969E976007068AE /* SCNumberDefinition.h */,
+				DB2ACCAE1969E976007068AE /* SCNumberDefinition.m */,
+				DB2ACC9D1969E976007068AE /* SCDateDefinition.h */,
+				DB2ACC9E1969E976007068AE /* SCDateDefinition.m */,
+				DB2ACCA11969E976007068AE /* SCDictionaryDefinition.h */,
+				DB2ACCA21969E976007068AE /* SCDictionaryDefinition.m */,
+				DB2ACCCA1969E976007068AE /* SCUserDefaultsDefinition.h */,
+				DB2ACCCB1969E976007068AE /* SCUserDefaultsDefinition.m */,
+			);
+			name = "Data Definitions";
+			sourceTree = "<group>";
+		};
+		DB2ACD191969EA88007068AE /* Data Fetch Options */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC991969E976007068AE /* SCDataFetchOptions.h */,
+				DB2ACC9A1969E976007068AE /* SCDataFetchOptions.m */,
+			);
+			name = "Data Fetch Options";
+			sourceTree = "<group>";
+		};
+		DB2ACD1A1969EA9E007068AE /* Data Stores */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC9B1969E976007068AE /* SCDataStore.h */,
+				DB2ACC9C1969E976007068AE /* SCDataStore.m */,
+				DB2ACC8F1969E976007068AE /* SCArrayStore.h */,
+				DB2ACC901969E976007068AE /* SCArrayStore.m */,
+				DB2ACCCC1969E976007068AE /* SCUserDefaultsStore.h */,
+				DB2ACCCD1969E976007068AE /* SCUserDefaultsStore.m */,
+			);
+			name = "Data Stores";
+			sourceTree = "<group>";
+		};
+		DB2ACD1B1969EAEA007068AE /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC931969E976007068AE /* SCCellActions.h */,
+				DB2ACC941969E976007068AE /* SCCellActions.m */,
+				DB2ACCBA1969E976007068AE /* SCSectionActions.h */,
+				DB2ACCBB1969E976007068AE /* SCSectionActions.m */,
+				DB2ACCAB1969E976007068AE /* SCModelActions.h */,
+				DB2ACCAC1969E976007068AE /* SCModelActions.m */,
+				DB2ACCD01969E976007068AE /* SCViewControllerActions.h */,
+				DB2ACCD11969E976007068AE /* SCViewControllerActions.m */,
+				DB2ACCC21969E976007068AE /* SCTableViewControllerActions.h */,
+				DB2ACCC31969E976007068AE /* SCTableViewControllerActions.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		DB2ACD1C1969EAF1007068AE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCD21969E976007068AE /* SCViewControllerTypedefs.h */,
+				DB2ACCCE1969E976007068AE /* SCViewController.h */,
+				DB2ACCCF1969E976007068AE /* SCViewController.m */,
+				DB2ACCB81969E976007068AE /* SCSearchViewController.h */,
+				DB2ACCB91969E976007068AE /* SCSearchViewController.m */,
+				DB2ACCC01969E976007068AE /* SCTableViewController.h */,
+				DB2ACCC11969E976007068AE /* SCTableViewController.m */,
+				DB2ACC9F1969E976007068AE /* SCDetailViewControllerOptions.h */,
+				DB2ACCA01969E976007068AE /* SCDetailViewControllerOptions.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DB2ACD1D1969EAFE007068AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCC41969E976007068AE /* SCTableViewModel.h */,
+				DB2ACCC51969E976007068AE /* SCTableViewModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DB2ACD1E1969EB0B007068AE /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCC61969E976007068AE /* SCTableViewSection.h */,
+				DB2ACCC71969E976007068AE /* SCTableViewSection.m */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		DB2ACD1F1969EB13007068AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCBE1969E976007068AE /* SCTableViewCell.h */,
+				DB2ACCBF1969E976007068AE /* SCTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		DB2ACD201969EB1B007068AE /* Special Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCA31969E976007068AE /* SCExpandCollapseCell.h */,
+				DB2ACCA41969E976007068AE /* SCExpandCollapseCell.m */,
+				DB2ACCA51969E976007068AE /* SCFetchItemsCell.h */,
+				DB2ACCA61969E976007068AE /* SCFetchItemsCell.m */,
+			);
+			name = "Special Cells";
+			sourceTree = "<group>";
+		};
+		DB2ACD211969EB31007068AE /* Special Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC911969E976007068AE /* SCBadgeView.h */,
+				DB2ACC921969E976007068AE /* SCBadgeView.m */,
+				DB2ACCB61969E976007068AE /* SCPullToRefreshView.h */,
+				DB2ACCB71969E976007068AE /* SCPullToRefreshView.m */,
+				DB2ACCA91969E976007068AE /* SCInputAccessoryView.h */,
+				DB2ACCAA1969E976007068AE /* SCInputAccessoryView.m */,
+				DB90E0561A0A9B6000CA3627 /* SCImageView.h */,
+				DB90E0571A0A9B6000CA3627 /* SCImageView.m */,
+			);
+			name = "Special Views";
+			sourceTree = "<group>";
+		};
+		DB2ACD221969EB41007068AE /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACCC81969E976007068AE /* SCTheme.h */,
+				DB2ACCC91969E976007068AE /* SCTheme.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		DB2ACD291969EE13007068AE /* License */ = {
+			isa = PBXGroup;
+			children = (
+				DB2ACC8E1969E976007068AE /* LICENSE AGREEMENT.rtf */,
+			);
+			name = License;
+			sourceTree = "<group>";
+		};
+		DBD4DBE71969FADE00A78949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CCE861984459200473F7F /* SystemConfiguration.framework */,
+				DB2ACD271969EDEB007068AE /* Foundation.framework */,
+				DB2ACD231969ED60007068AE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = SensibleTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB2ACC691969E4BE007068AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2ACCF41969E976007068AE /* SCPluginUtilities.h in Headers */,
+				DB2ACD0F1969E976007068AE /* SCUserDefaultsDefinition.h in Headers */,
+				DB2ACCEC1969E976007068AE /* SCGlobals.h in Headers */,
+				DB2ACCDA1969E976007068AE /* SCClassDefinition.h in Headers */,
+				DB2ACD051969E976007068AE /* SCTableViewController.h in Headers */,
+				DB2ACCDE1969E976007068AE /* SCDataFetchOptions.h in Headers */,
+				DB2ACD0B1969E976007068AE /* SCTableViewSection.h in Headers */,
+				DB2ACCE21969E976007068AE /* SCDateDefinition.h in Headers */,
+				DB2ACCD41969E976007068AE /* SCArrayStore.h in Headers */,
+				DB2ACCFD1969E976007068AE /* SCSearchViewController.h in Headers */,
+				DB2ACCD61969E976007068AE /* SCBadgeView.h in Headers */,
+				DB2ACD031969E976007068AE /* SCTableViewCell.h in Headers */,
+				DB2ACCFB1969E976007068AE /* SCPullToRefreshView.h in Headers */,
+				DB2ACD0D1969E976007068AE /* SCTheme.h in Headers */,
+				DB2ACD131969E976007068AE /* SCViewController.h in Headers */,
+				DB2ACCF61969E976007068AE /* SCPropertyAttributes.h in Headers */,
+				DB2ACCF81969E976007068AE /* SCPropertyDefinition.h in Headers */,
+				DB2ACD011969E976007068AE /* SCStringDefinition.h in Headers */,
+				DB2ACCE41969E976007068AE /* SCDetailViewControllerOptions.h in Headers */,
+				DB2ACD151969E976007068AE /* SCViewControllerActions.h in Headers */,
+				DB2ACCE81969E976007068AE /* SCExpandCollapseCell.h in Headers */,
+				DB2ACCDC1969E976007068AE /* SCDataDefinition.h in Headers */,
+				DB2ACCF21969E976007068AE /* SCNumberDefinition.h in Headers */,
+				DB2ACCFF1969E976007068AE /* SCSectionActions.h in Headers */,
+				DB2ACCF01969E976007068AE /* SCModelActions.h in Headers */,
+				DB2ACCE61969E976007068AE /* SCDictionaryDefinition.h in Headers */,
+				DB2ACD071969E976007068AE /* SCTableViewControllerActions.h in Headers */,
+				DB2ACD171969E976007068AE /* SCViewControllerTypedefs.h in Headers */,
+				DB2ACD111969E976007068AE /* SCUserDefaultsStore.h in Headers */,
+				DB2ACCFA1969E976007068AE /* SCPropertyType.h in Headers */,
+				DB2ACCE01969E976007068AE /* SCDataStore.h in Headers */,
+				DB2ACCD81969E976007068AE /* SCCellActions.h in Headers */,
+				DB2ACD091969E976007068AE /* SCTableViewModel.h in Headers */,
+				DB2ACCEE1969E976007068AE /* SCInputAccessoryView.h in Headers */,
+				DB2ACCEA1969E976007068AE /* SCFetchItemsCell.h in Headers */,
+				DB90E0581A0A9B6000CA3627 /* SCImageView.h in Headers */,
+				DB2ACC721969E4BE007068AE /* SensibleTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB2ACC6B1969E4BE007068AE /* SensibleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2ACC821969E4BE007068AE /* Build configuration list for PBXNativeTarget "SensibleTableView" */;
+			buildPhases = (
+				DB2ACC671969E4BE007068AE /* Sources */,
+				DB2ACC681969E4BE007068AE /* Frameworks */,
+				DB2ACC691969E4BE007068AE /* Headers */,
+				DB2ACC6A1969E4BE007068AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensibleTableView;
+			productName = SensibleTableView;
+			productReference = DB2ACC6C1969E4BE007068AE /* SensibleTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2ACC631969E4BE007068AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sensible Cocoa";
+				TargetAttributes = {
+					DB2ACC6B1969E4BE007068AE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DBF1669C19A8F2FD00806A65 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = DB2ACC661969E4BE007068AE /* Build configuration list for PBXProject "SensibleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB2ACC621969E4BE007068AE;
+			productRefGroup = DB2ACC6D1969E4BE007068AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2ACC6B1969E4BE007068AE /* SensibleTableView */,
+				DBF1669C19A8F2FD00806A65 /* FatFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2ACC6A1969E4BE007068AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF166A219A8F39500806A65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Special thanks to Sam Davies for providing this script! http://www.raywenderlich.com/65964/create-a-framework-for-ios\n# We have modified the script to adapt it to the new iOS 8 dynamic frameworks.\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"${PROJECT_NAME}.framework/${PROJECT_NAME}\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\n\n# Ensure that the framework is present in both platform's build directories\n# cp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n# \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2ACC671969E4BE007068AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2ACCDD1969E976007068AE /* SCDataDefinition.m in Sources */,
+				DB2ACCE91969E976007068AE /* SCExpandCollapseCell.m in Sources */,
+				DB2ACD141969E976007068AE /* SCViewController.m in Sources */,
+				DB2ACCD71969E976007068AE /* SCBadgeView.m in Sources */,
+				DB2ACCE51969E976007068AE /* SCDetailViewControllerOptions.m in Sources */,
+				DB2ACCE31969E976007068AE /* SCDateDefinition.m in Sources */,
+				DB2ACCE71969E976007068AE /* SCDictionaryDefinition.m in Sources */,
+				DB2ACCD91969E976007068AE /* SCCellActions.m in Sources */,
+				DB2ACCF31969E976007068AE /* SCNumberDefinition.m in Sources */,
+				DB2ACCD51969E976007068AE /* SCArrayStore.m in Sources */,
+				DB2ACCDB1969E976007068AE /* SCClassDefinition.m in Sources */,
+				DB2ACCED1969E976007068AE /* SCGlobals.m in Sources */,
+				DB2ACCF91969E976007068AE /* SCPropertyDefinition.m in Sources */,
+				DB2ACCE11969E976007068AE /* SCDataStore.m in Sources */,
+				DB2ACD0C1969E976007068AE /* SCTableViewSection.m in Sources */,
+				DB2ACD041969E976007068AE /* SCTableViewCell.m in Sources */,
+				DB2ACCF11969E976007068AE /* SCModelActions.m in Sources */,
+				DB2ACD081969E976007068AE /* SCTableViewControllerActions.m in Sources */,
+				DB2ACCF71969E976007068AE /* SCPropertyAttributes.m in Sources */,
+				DB2ACCDF1969E976007068AE /* SCDataFetchOptions.m in Sources */,
+				DB2ACCFC1969E976007068AE /* SCPullToRefreshView.m in Sources */,
+				DB2ACD001969E976007068AE /* SCSectionActions.m in Sources */,
+				DB90E0591A0A9B6000CA3627 /* SCImageView.m in Sources */,
+				DB2ACCEF1969E976007068AE /* SCInputAccessoryView.m in Sources */,
+				DB2ACCFE1969E976007068AE /* SCSearchViewController.m in Sources */,
+				DB2ACCEB1969E976007068AE /* SCFetchItemsCell.m in Sources */,
+				DB2ACD0E1969E976007068AE /* SCTheme.m in Sources */,
+				DB2ACCF51969E976007068AE /* SCPluginUtilities.m in Sources */,
+				DB2ACD0A1969E976007068AE /* SCTableViewModel.m in Sources */,
+				DB2ACD021969E976007068AE /* SCStringDefinition.m in Sources */,
+				DB2ACD061969E976007068AE /* SCTableViewController.m in Sources */,
+				DB2ACD161969E976007068AE /* SCViewControllerActions.m in Sources */,
+				DB2ACD121969E976007068AE /* SCUserDefaultsStore.m in Sources */,
+				DB2ACD101969E976007068AE /* SCUserDefaultsDefinition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF166A119A8F32B00806A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2ACC6B1969E4BE007068AE /* SensibleTableView */;
+			targetProxy = DBF166A019A8F32B00806A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB2ACC801969E4BE007068AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2ACC811969E4BE007068AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB2ACC831969E4BE007068AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = SensibleTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sensiblecocoa.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		DB2ACC841969E4BE007068AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = SensibleTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sensiblecocoa.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		DBF1669E19A8F2FD00806A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF1669F19A8F2FD00806A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2ACC661969E4BE007068AE /* Build configuration list for PBXProject "SensibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2ACC801969E4BE007068AE /* Debug */,
+				DB2ACC811969E4BE007068AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2ACC821969E4BE007068AE /* Build configuration list for PBXNativeTarget "SensibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2ACC831969E4BE007068AE /* Debug */,
+				DB2ACC841969E4BE007068AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF1669D19A8F2FD00806A65 /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF1669E19A8F2FD00806A65 /* Debug */,
+				DBF1669F19A8F2FD00806A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2ACC631969E4BE007068AE /* Project object */;
+}
