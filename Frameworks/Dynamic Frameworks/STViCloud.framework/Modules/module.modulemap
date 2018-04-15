@@ -1,0 +1,6 @@
+framework module STViCloud {
+  umbrella header "STViCloud.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SensibleTableView {
+  umbrella header "SensibleTableView.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module STVWebServices {
+  umbrella header "STVWebServices.h"
+
+  export *
+  module * { export * }
+}

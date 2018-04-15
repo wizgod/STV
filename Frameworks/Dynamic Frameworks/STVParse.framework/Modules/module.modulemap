@@ -1,0 +1,6 @@
+framework module STVParse {
+  umbrella header "STVParse.h"
+
+  export *
+  module * { export * }
+}

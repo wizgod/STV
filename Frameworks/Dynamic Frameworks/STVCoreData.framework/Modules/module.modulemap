@@ -1,0 +1,6 @@
+framework module STVCoreData {
+  umbrella header "STVCoreData.h"
+
+  export *
+  module * { export * }
+}
