@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.sensiblecocoa.dt.unit.STVApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an STV Parse.com application.</string>
+	<key>Identifier</key>
+	<string>com.sensiblecocoa.dt.unit.STVParse</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Accounts</string>
+				<string>AudioToolbox</string>
+				<string>CoreAudio</string>
+				<string>CoreLocation</string>
+				<string>CFNetwork</string>
+				<string>MobileCoreServices</string>
+				<string>SystemConfiguration</string>
+				<string>Social</string>
+				<string>StoreKit</string>
+			</array>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Frameworks/STVParse.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Frameworks/STVParse.framework</string>
+			<key>SortOrder</key>
+			<integer>702</integer>
+		</dict>
+		<key>Frameworks/Parse.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Frameworks/Parse.framework</string>
+			<key>SortOrder</key>
+			<integer>710</integer>
+		</dict>
+		<key>Frameworks/Bolts.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Frameworks/Bolts.framework</string>
+			<key>SortOrder</key>
+			<integer>711</integer>
+		</dict>
+		<key>Frameworks/libsqlite3.dylib</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/libsqlite3.dylib</string>
+			<key>SortOrder</key>
+			<integer>720</integer>
+		</dict>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>Frameworks/STVParse.framework</string>
+		<string>Frameworks/Parse.framework</string>
+		<string>Frameworks/Bolts.framework</string>
+		<string>Frameworks/libsqlite3.dylib</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>___PACKAGENAME___-Prefix.pch</key>
+							<dict>
+								<key>Group</key>
+								<string>Supporting Files</string>
+								<key>Beginning</key>
+								<string>//
+// Prefix header for all source files
+//
+
+#import &lt;SensibleTableView/SensibleTableView.h&gt;
+#import &lt;STVParse/STVParse.h&gt;
+
+#import &lt;Parse/Parse.h&gt;
+</string>
+								<key>End</key>
+								<string></string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>___PACKAGENAME___-Bridging-Header.h</key>
+							<dict>
+								<key>Group</key>
+								<string>Supporting Files</string>
+								<key>Beginning</key>
+								<string>//
+// Use this file to import your target&apos;s public headers that you would like to expose to Swift.
+//
+
+#import &lt;SensibleTableView/SensibleTableView.h&gt;
+#import &lt;STVParse/STVParse.h&gt;
+
+#import &lt;Parse/Parse.h&gt;
+</string>
+								<key>End</key>
+								<string></string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>coreData</string>
+			<key>Default</key>
+			<string>true</string>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<integer>7</integer>
+</dict>
+</plist>

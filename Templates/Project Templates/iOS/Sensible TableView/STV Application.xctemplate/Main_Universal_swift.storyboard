@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eNt-BA-ziw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.sensiblecocoa.InterfaceBuilder.SensibleTableView" version="1"/>
+    </dependencies>
+    <scenes>
+        <!--Master-->
+        <scene sceneID="yQs-mv-HKi">
+            <objects>
+                <navigationController title="Master" id="HFA-Rf-t4u" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jpA-5A-5S6">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8eK-J6-mxp" kind="relationship" relationship="rootViewController" id="WsQ-Qa-lzZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71k-UZ-lDC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-360" y="534"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="5kW-E4-gd0">
+            <objects>
+                <splitViewController id="eNt-BA-ziw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <connections>
+                        <segue destination="HFA-Rf-t4u" kind="relationship" relationship="masterViewController" id="Ebs-EG-blU"/>
+                        <segue destination="zfY-1I-kHh" kind="relationship" relationship="detailViewController" id="fVB-L3-6IJ"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NmU-KQ-jK1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-236"/>
+        </scene>
+        <!--Master-->
+        <scene sceneID="6Ms-y1-hRj">
+            <objects>
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="8eK-J6-mxp" customClass="MasterViewController" customModule="___PACKAGENAME___" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="9ib-W6-JPe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <SC_ArrayOfObjectsSection placeholderTextAlignment="1" allowAdding="YES" allowDeleting="YES" allowMoving="YES" liveSyncWithMasterPropertyDefinition="NO" id="2md-Gs-n5B">
+                                <cells>
+                                    <SC_CustomCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="LZC-Xe-kWI" detailTextLabel="JD5-Xj-H61" style="IBUITableViewCellStyleSubtitle" liveSyncWithPropertyDefinition="NO" id="ggn-7t-iko">
+                                        <rect key="frame" x="0.0" y="99" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ggn-7t-iko" id="cs3-5m-3yK">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LZC-Xe-kWI">
+                                                    <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JD5-Xj-H61">
+                                                    <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="ibDetailViewControllerIdentifier" value="UITableViewController-zfY-1I-kHh"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="zfY-1I-kHh" kind="show" id="4hA-7g-O1g"/>
+                                        </connections>
+                                    </SC_CustomCell>
+                                </cells>
+                                <nil key="predicateString"/>
+                                <string key="placeholderText">(no objects)</string>
+                                <nil key="addNewItemText"/>
+                                <nil key="masterBoundPropertyName"/>
+                                <string key="ibNewItemSegueIdentifier">_STV_HtJ-b2-Vrt</string>
+                            </SC_ArrayOfObjectsSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="8eK-J6-mxp" id="UZ9-dA-bOI"/>
+                            <outlet property="delegate" destination="8eK-J6-mxp" id="PLr-iH-f3z"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Master" id="AR6-U0-Xp8"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ibSTVSectionsString">
+                            <mutableString key="value">type➡︎SCArrayOfObjectsSection・index➡︎0・placeholderText➡︎(no objects)・placeholderTextAlignment➡︎1・allowAdding➡︎Y・allowDeleting➡︎Y・allowMoving➡︎Y・allowEditing➡︎Y・ibNewItemViewControllerIdentifier➡︎UITableViewController-zfY-1I-kHh</mutableString>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="zfY-1I-kHh" kind="presentation" identifier="_STV_HtJ-b2-Vrt" animates="NO" id="Njh-ae-oUa"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPE-C6-fGA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="534"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="uaH-Tq-i01">
+            <objects>
+                <tableViewController id="zfY-1I-kHh" customClass="SCTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ZZN-zh-htz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections/>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umT-UF-FAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1136" y="534"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Njh-ae-oUa"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.storyboardApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for a basic Sensible TableView application.</string>
+	<key>Identifier</key>
+	<string>com.sensiblecocoa.dt.unit.STVApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Definitions</key>
+	<dict>
+		<key>Frameworks/SensibleTableView.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Frameworks/SensibleTableView.framework</string>
+			<key>SortOrder</key>
+			<integer>701</integer>
+		</dict>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+		<string>Info.plist:statusBarTintForNavBar</string>
+		<string>Frameworks/SensibleTableView.framework</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.m:extension</key>
+							<dict>
+								<key>Beginning</key>
+								<string>@interface ___FILEBASENAME___ () &lt;UISplitViewControllerDelegate&gt;
+</string>
+								<key>End</key>
+								<string>@end
+</string>
+							</dict>
+							<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+							<string>if([self.window.rootViewController isKindOfClass:[UISplitViewController class]])
+    {
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        splitViewController.delegate = [splitViewController.viewControllers lastObject];  // the detail view controller
+    }
+    
+</string>
+							<key>___PACKAGENAME___-Prefix.pch</key>
+							<dict>
+								<key>Group</key>
+								<string>Supporting Files</string>
+								<key>Beginning</key>
+								<string>//
+// Prefix header for all source files
+//
+
+#import &lt;SensibleTableView/SensibleTableView.h&gt;
+
+</string>
+								<key>End</key>
+								<string></string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>___PACKAGENAME___-Prefix.pch</string>
+							<string>MasterViewController.h:comments</string>
+							<string>MasterViewController.h:imports:importCocoa</string>
+							<string>MasterViewController.m:comments</string>
+							<string>MasterViewController.m:imports:importHeader:MasterViewController.h</string>
+							<string>MasterViewController.m:extension</string>
+							<string>MasterViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+							<string>MasterViewController.m:implementation:methods:viewDidLoad:super</string>
+						</array>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>___PACKAGENAME___</string>
+								<key>SharedSettings</key>
+								<dict>
+									<key>GCC_PREFIX_HEADER</key>
+									<string>___PACKAGENAME___/___PACKAGENAME___-Prefix.pch</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main_Universal.storyboard</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>STVPlugin</key>
+							<string>true</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main_Universal_noplugin.storyboard</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>STVPlugin</key>
+							<string>false</string>
+						</dict>
+					</dict>
+				</array>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+							<string>if self.window!.rootViewController is UISplitViewController
+        {
+            let splitViewController = self.window!.rootViewController as! UISplitViewController;
+            splitViewController.delegate = splitViewController.viewControllers.last as? UISplitViewControllerDelegate;
+        }
+        
+</string>
+							<key>___PACKAGENAME___-Bridging-Header.h</key>
+							<dict>
+								<key>Group</key>
+								<string>Supporting Files</string>
+								<key>Beginning</key>
+								<string>//
+//  Use this file to import your target&apos;s public headers that you would like to expose to Swift.
+//
+
+#import &lt;SensibleTableView/SensibleTableView.h&gt;</string>
+								<key>End</key>
+								<string></string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>___PACKAGENAME___-Bridging-Header.h</string>
+							<string>MasterViewController.swift:comments</string>
+							<string>MasterViewController.swift:imports:importCocoa</string>
+							<string>MasterViewController.swift:implementation</string>
+							<string>MasterViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>MasterViewController.swift:implementation:methods:viewDidLoad:super</string>
+						</array>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>___PACKAGENAME___</string>
+								<key>SharedSettings</key>
+								<dict>
+									<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+									<string>___PACKAGENAME___/___PACKAGENAME___-Bridging-Header.h</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main_Universal_swift.storyboard</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>STVPlugin</key>
+							<string>true</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main_Universal_noplugin_swift.storyboard</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>STVPlugin</key>
+							<string>false</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+			<key>Units</key>
+			<dict>
+				<key>Universal</key>
+				<array/>
+				<key>iPad</key>
+				<array/>
+				<key>iPhone</key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>coreData</string>
+			<key>Units</key>
+			<dict>
+				<key>false</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>MasterViewController.m:extension:objects</key>
+							<string>@property NSMutableArray *objects;</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>MasterViewController.h:interface(MasterViewController : SCTableViewController)</string>
+							<string>MasterViewController.m:extension:objects</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>MasterViewController.swift:implementation</key>
+							<dict>
+								<key>Beginning</key>
+								<string>class MasterViewController: SCTableViewController {
+</string>
+								<key>End</key>
+								<string>
+}
+</string>
+								<key>Indent</key>
+								<integer>1</integer>
+							</dict>
+							<key>MasterViewController.swift:implementation:properties:objects</key>
+							<string>var objects = NSMutableArray()</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>MasterViewController.swift:implementation:properties:objects</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+					</dict>
+				</array>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</key>
+							<dict>
+								<key>Path</key>
+								<string>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</string>
+							</dict>
+						</dict>
+					</dict>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>AppDelegate.m:imports:importHeader:MasterViewController.h</string>
+							<string>MasterViewController.h:interface(MasterViewController : SCTableViewController)</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>MasterViewController.swift:implementation</key>
+							<dict>
+								<key>Beginning</key>
+								<string>class MasterViewController: SCTableViewController {
+</string>
+								<key>End</key>
+								<string>
+}
+</string>
+								<key>Indent</key>
+								<integer>1</integer>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array/>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>AppDelegate.m:import:MasterViewController.h</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+							<key>universalDeviceFamily</key>
+							<string>iPhone</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict/>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+							<key>universalDeviceFamily</key>
+							<string>iPhone</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>Whether the Storyboard should use STV&apos;s Xcode Plugin (don&apos;t select if STV Plugin is not installed!)</string>
+			<key>Identifier</key>
+			<string>STVPlugin</string>
+			<key>Name</key>
+			<string>Use STV&apos;s Xcode Plugin (recommended)</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array/>
+				<key>false</key>
+				<array/>
+			</dict>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>FRAMEWORK_SEARCH_PATHS</key>
+			<string>$(PROJECT_DIR)/**</string>
+			<key>OTHER_LDFLAGS</key>
+			<string>-ObjC</string>
+		</dict>
+	</dict>
+	<key>SortOrder</key>
+	<integer>10</integer>
+</dict>
+</plist>
